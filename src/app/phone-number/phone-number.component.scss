@@ -1,4 +1,9 @@
- 
+
+.container{
+    text-align: center;
+    margin-top: 8%;
+    }
+    
     .container-body{ 
     background-color: #FFFFFF;
     width: 588px;
@@ -16,7 +21,7 @@
     background: #EB6E7F;
     border-radius: 6px;
     color: white;
-   
+    margin-top: 50px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -26,15 +31,26 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
+    margin-bottom: 25px;
     }
     .container-body > p{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 25px;
+    }
+    .img{
+        padding-bottom: 30px;
+    }
+    .text-box{
+        padding: 10px;
+        width: 40%;
+        border: 1px solid #CCCCCC;
+        border-radius: 4px;
     }
     .otp{
         padding: 10px;
-        width: 8%;
+        width: 4%;
         border: 1px solid #CCCCCC;
         border-radius: 4px; 
         margin-right: 16px;
@@ -42,17 +58,3 @@
     .otp:hover, otp:active{
         border: 1px solid #EB6E7F;
     }
-    .img{
-        padding-bottom: 30px;
-    }
-    .container{
-        text-align: center;
-        margin-top: 8%;
-        }
-        .resend{
-            color: #EB6E7F;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 24px;
-            margin: 0px 8px
-        }
