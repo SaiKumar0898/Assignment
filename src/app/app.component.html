@@ -1,3 +1,5 @@
 
-
-<router-outlet></router-outlet>
+<!-- <router-outlet></router-outlet> -->
+<app-phone-number *ngIf="phnflag" (emitter)="send($event)" (token_new)="sendtoken($event)"></app-phone-number>
+<app-otp-verify *ngIf="otpflag" [keyword]="keyword" [token_new]="token_new" (flag)="output($event)"></app-otp-verify>
+<app-personal-details *ngIf="personalflag" (route)="route"></app-personal-details>

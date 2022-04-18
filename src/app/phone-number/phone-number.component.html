@@ -1,10 +1,14 @@
 
-<div class="container" *ngIf="!show">
+  <form [formGroup]="myForm"  novalidate>
+  <div class="container">
     <img src="/assets/images/yabx.png" alt="image" class="img">
     <div class="container-body" >
       <h2>Welcome to YABX</h2>
       <p>Please enter your mobile number</p>
-      <input type="text" class="text-box" [(ngModel)]="phonenum" maxlength="10" required><br>
-      <button class="btn-send" (click)="showOTP()">Send OTP </button>
+      <input type="text" class="text-box" formControlName="mob"  maxlength="10"   (keyup)="emit(keyword.value);" #keyword><br>
+        <div *ngIf="m['mob'].errors && m['mob'].errors['required']" class="error-message">Please enter mobile number</div>
+        <div *ngIf="m['mob'].errors && m['mob'].errors['pattern']" class="error-message">Mobile number is not 10 digit</div>
+      <button class="btn-send" [disabled]="!myForm.valid"  (click)="showOTP()">Send OTP </button>
     </div>
   </div>
+</form>

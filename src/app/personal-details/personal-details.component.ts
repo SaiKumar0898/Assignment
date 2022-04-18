@@ -7,15 +7,7 @@ import { TabsetComponent, TabDirective } from 'ngx-bootstrap/tabs';
   styleUrls: ['./personal-details.component.scss']
 })
 export class PersonalDetailsComponent  {
-
   @ViewChild('tabset') tabset: TabsetComponent;
-  // @ViewChild('first') first: TabDirective;
-  // @ViewChild('second') second: TabDirective;
-
-  // ngAfterViewInit(){
-  //   console.log(this.tabset.tabs);
-  // }
-
   ngOnInit(): void {
   }
 

@@ -5,14 +5,14 @@
     padding: 15px;
 }
 .info{
-width: 794px;
-height: 520px;
-background: #FFFFFF;
-border-radius: 6px;
-margin: auto;
-padding: 24px;
-margin-top: 3rem;
-margin-left: 21rem;
+    width: 794px;
+    height: 520px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: auto;
+    padding: 24px;
+    margin-top: 3rem;
+    margin-left: 21rem;
 }
 .loan-details{
     display: inline-flex;
@@ -24,20 +24,18 @@ margin-left: 21rem;
     align-items: baseline;
 }
 h3{
-
     width: 50%;
-
 }
 .loan > p, .tenture > p {
     padding-right: 10px;
     width: 50%;
     text-align: end;
     background: #FCFCFC;
-border: 1px solid #E6E6E6;
-box-sizing: border-box;
-border-radius: 6px;
-padding: 8px;
-width: 126px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 8px;
+    width: 126px;
     text-align: center;
 }
 .pre{
@@ -72,35 +70,35 @@ width: 126px;
     padding: 10px;
 }
 .row{
-display: flex;
-align-items: baseline;
+    display: flex;
+    align-items: baseline;
 }
 .row > .col {
     width: 70%;
     font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-color: #808080;
-opacity: 0.8;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    opacity: 0.8;
 }
 .heading{
-font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-color: #191919;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #191919;
 }
 .values{
     font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-color: #333333;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
 }
 label{
     font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #666666;
 }
 .dropdown{
     width: 100%;

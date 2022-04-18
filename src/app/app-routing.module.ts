@@ -6,12 +6,13 @@ import { PersonalDetailsComponent } from './personal-details/personal-details.co
 import { PhoneNumberComponent } from './phone-number/phone-number.component';
 
 const routes: Routes = [
-  {path: '',
-  redirectTo: "/phone-number",
-  pathMatch: 'full' },
+  {
+    path: '',
+    redirectTo: "/phone-number",
+    pathMatch: 'full'
+  },
   { path: 'phone-number', component: PhoneNumberComponent },
-
-   { path: 'otp-verify', component: OtpVerifyComponent },
+  { path: 'otp-verify', component: OtpVerifyComponent },
   { path: 'personal-details', component: PersonalDetailsComponent },
 
 ];
@@ -20,7 +21,7 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { 
-  
+export class AppRoutingModule {
+
 }
 
